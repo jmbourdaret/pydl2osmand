@@ -11,7 +11,7 @@ Recently , I've discovered that  **OsmAnd** also has some (little known) raster/
 The GUI tools above are great for building **mbtiles** files. which are nicely supported by **OruxMaps**, but not by OsmAnd.
 Also, I prefer a command-line tool for this kind of job.
 
-## Requirement
+## Requirements
  - loads of python 3 libs, including "supermercado". see file header.
  - a geojson with the extents that you want to download, it has to be on a **single line** due to a bug in some lib (mercado I think). there is plenty of online geojson editors.
  - an sqlite file compliant with OSMand file format, easiest way is to copy this file from the phone.
